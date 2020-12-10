@@ -11,17 +11,19 @@ body {
 *,
 *:before,
 *:after {
+
     box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6, {
+
     margin: 0;
 }
 p {
     margin: 0 0 10px;
 }
 
-/*container*/
+
 
 .container {
 
@@ -30,11 +32,10 @@ p {
     margin: 0 auto;
 }
 
-/*header*/
+
 
 .header {
 
-    position: absolute;
     padding: 7px 0;
     width: 1366px;
     height: 50px;
@@ -43,59 +44,55 @@ p {
     background: rgba(41, 41, 40, 0.9);
 }
 
-/*header__inner*/
 
-.header__inner {
+
+.header_inner {
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/*nav*/
+
 
 .nav {
 
     display: flex;
     font-size: 18px;
-    line-height: 23px;
+
     text-align: center;
 }
 
-.nav__link {
+.nav_link {
 
     margin-left: 36px;
     font-size: 18px;
-    line-height: 23px;
     text-align: center;
     color: #ffffff;
     text-decoration: none;
 }
 
-.nav__green {
+.nav_green {
 
     text-decoration-line: underline;
 
     color: #00A13A;
     margin-left: 36px;
     font-size: 18px;
-    line-height: 23px;
     text-align: center;
 }
 
-.nomera__tel {
+.numbers {
 
     margin-left: 85px;
     font-size: 14px;
-    line-height: 18px;
     text-align: center;
-
 
     color: #ffffff;
 
 }
 
-/*intro*/
+
 
 .intro {
 
@@ -111,7 +108,7 @@ p {
 }
 
 
-.intro__title {
+.intro_title {
 
     margin-bottom: 100px;
 
@@ -123,7 +120,128 @@ p {
     color: #ffffff;
 }
 
-.prost {
+.intro__title {
 
     margin-left: 150px;
 }
+
+
+.info_us {
+
+    display: flex;
+    color: #292928;
+    padding-top: 700px;
+    font-size: 36px;
+    line-height: 46px;
+
+    justify-content: center;
+
+}
+
+.info {
+
+    display: flex;
+    margin: 50px 0;
+    justify-content: center;
+
+}
+
+.info_foto {
+
+    margin-left: 100px;
+}
+
+.info_text {
+
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 30px;
+
+ }
+
+/*services*/
+
+.services {
+
+    margin: 100px 0 70px;
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: #292928;
+}
+
+.our_services {
+
+    font-size: 36px;
+    line-height: 46px;
+
+    text-align:center;
+
+    color: #fff;
+}
+
+.services_inner {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.services_item {
+
+      margin-left: 50px;
+}
+
+.services_photo {
+
+    margin-bottom: 20px;
+
+    margin: auto;
+    height: auto;
+}
+
+.services_text {
+
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.footer {
+
+    background-color: #292928;
+}
+
+.footer_inner {
+
+    display: flex;
+
+    height: 75px;
+}
+
+.footer_title {
+
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+
+
+}
+.time {
+
+    border-bottom: 15px;
+    margin-left: 150px;
+}
+
+.footer_numbers {
+
+    margin-left: 350px;
+
+}
+
+
